@@ -1,0 +1,96 @@
+/* Global Styles */
+html {
+    border-left: 5px solid lightgray;
+}
+
+body {
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: white;
+}
+
+/* Header Styles */
+header {
+    padding: 1rem 2rem;
+}
+
+h1 {
+    color: tomato;
+    font-size: 2.5rem;
+    margin-bottom: 0.2rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+    color: gray;
+}
+
+/* Navigation Styles */
+.main-nav,
+.footer-nav {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: tomato;
+}
+
+/* Article Styles */
+article {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 2rem;
+    margin-bottom: 4rem;
+}
+
+article h3 {
+    font-size: 1.8rem;
+}
+
+article img {
+    width: 100%;
+    height: auto;
+}
+
+article p {
+    line-height: 1.6;
+}
+
+/* Dropcap Style */
+.dropcap {
+    font-size: 3rem;
+    font-weight: bold;
+    color: lightgray;
+    float: left;
+    margin-right: 10px;
+}
+
+/* "Continues ..." Link */
+.continue {
+    display: block;
+    text-align: right;
+    font-weight: bold;
+    color: tomato;
+    text-decoration: none;
+}
+
+/* Footer Styles */
+footer {
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.copyright {
+    color: lightgray;
+    font-size: 0.9rem;
+}
